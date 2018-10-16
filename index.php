@@ -1,1 +1,1 @@
-<?php echo "Veikia net labai"; ?>
+<?php echo "Sveiki"; ?>
