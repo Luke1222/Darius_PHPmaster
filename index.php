@@ -1,8 +1,8 @@
 <?php
 date_default_timezone_set('Europe/Vilnius'); ?>
 <html>
-    <title>Aš valdau html <?php echo "ir PHP"?></title>  
-    <h2> Darius yra HTML <?php echo "ir PHP"?> asas!</h2>
-    <p>Moku kurti dinamiką <br>
-        Atidaryta <?php echo date("Y-m-d h:i:sa"); ?></p>
+    <title><?php echo 'Aš,' . ' ' . date('l') . ' ' . "ir PHP"?></title>  
+    <h2> <?php echo 'Darius - HTML' . ' '. "ir PHP asas jau nuo" . ' ' . date('Y') . ' ' . 'metų'?></h2>
+    <p><?php echo  'Viskas prasidėjo'. ' ' . date("m") . ' ' . 'mėnesio' . ' ' . date('d') . ' ' . 'dieną'; ?></p>
 </html>
+
