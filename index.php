@@ -5,6 +5,4 @@
     <h1> Darius yra HTML - asas!</h1>
     <p>Moku kurti statines</p>
        
-        
-    
 </html>
